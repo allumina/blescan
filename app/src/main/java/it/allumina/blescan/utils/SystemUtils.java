@@ -8,11 +8,9 @@ import androidx.core.content.ContextCompat;
 import androidx.work.ExistingPeriodicWorkPolicy;
 import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
-
 import java.util.Iterator;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 import it.allumina.blescan.common.Constants;
 import it.allumina.blescan.services.MonitorService;
 import it.allumina.blescan.workers.SystemCheckWorker;

@@ -4,11 +4,7 @@ package it.allumina.blescan.receivers;
         import android.content.Context;
         import android.content.Intent;
         import android.util.Log;
-
-        import androidx.core.content.ContextCompat;
-
         import java.util.UUID;
-
         import io.realm.Realm;
         import it.allumina.blescan.common.Constants;
         import it.allumina.blescan.data.SystemItem;

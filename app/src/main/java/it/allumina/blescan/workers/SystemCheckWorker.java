@@ -1,16 +1,11 @@
 package it.allumina.blescan.workers;
 
 import android.content.Context;
-import android.content.Intent;
 import android.util.Log;
-
 import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
-
 import it.allumina.blescan.common.Constants;
-import it.allumina.blescan.services.MonitorService;
 import it.allumina.blescan.utils.SystemUtils;
 
 public class SystemCheckWorker extends Worker {
